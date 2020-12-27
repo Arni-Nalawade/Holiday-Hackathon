@@ -1,0 +1,87 @@
+body {
+	margin:0;
+	padding:0;
+	background: url(image0.jpg);
+	background-size:cover;
+	background_position:center;
+	font-family: League-Spartan;
+}
+.Signup {
+	width:340px;
+	height:660px;
+	background:#c06c84;
+	color:#355c7d;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 60px 30px;
+}
+
+.avatar {
+	width:100px;
+	height:100px;
+	border-radius:80%;
+	position:absolute;
+	top:-50px;
+	left:110px;
+}
+
+ .h1 {
+	margin: 0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size: 22px;	
+}
+
+.Signup p{
+	margin: 0;
+	padding:0;
+	font-weight: bold;
+}
+
+.Signup input{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.Signup input[type="text"],input[type="Password"]
+{
+	border:none;
+	border-bottom: 1px solid #f8b195
+	outline:none;
+	height:40px;
+	color:#f67280;
+	font-size: 16px;
+}
+
+.Signup input[type="Submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#355c7d;
+	color:#f8b195;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.Signup input[type="Submit"]:hover
+{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+}
+
+.Signup a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height:20px;
+	color:darkblue;
+}
+
+.Signup a:hover
+{
+	color:white;
+}
